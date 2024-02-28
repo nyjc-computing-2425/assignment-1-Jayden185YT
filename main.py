@@ -2,8 +2,8 @@ seconds = input('Enter the number of seconds (integer): ')
 seconds = int(seconds)
 
 # ... complete the code below
-
-
+hours, seconds = divmod(seconds, 3600)
+minutes, seconds = divmod(seconds, 60)
 
 # Follow the formatting given
 # e.g. The duration is X hours, X minutes, and X seconds.
